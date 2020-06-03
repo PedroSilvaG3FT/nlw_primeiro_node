@@ -8,3 +8,8 @@
 # criar arquivo de configuração para TS: npx tsc --init
 
 # Para subir server executar: npx ts-node src/server.ts (Caminho do arquivo)
+
+# LIVE RELOAD 
+    ## Instalar: npm install ts-node-dev -d 
+    ## Criar script : "dev": "ts-node-dev src/server.ts"
+    ## Iniciar com: npm run dev
