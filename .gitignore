@@ -4,13 +4,7 @@
 /build
 .idea
 /log
-assets/css
-assets/js
-/app/envApi.js
-/bc-original/node_modules
-/app/pages/pageTest
 /purify
 /lesshintReport
 /plato-report
-/app/envApiBackup.js
 package-lock.json
