@@ -74,10 +74,10 @@ class PointsController {
                 point_id,
             }
         });
-
-        await trx.commit();
-
+        
         await trx('point_items').insert(pointItems);
+        
+        await trx.commit();
 
         return response.json({
             id: point_id,
