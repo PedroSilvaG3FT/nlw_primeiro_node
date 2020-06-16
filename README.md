@@ -9,7 +9,13 @@
 
 # Para subir server executar: npx ts-node src/server.ts (Caminho do arquivo)
 
-# LIVE RELOAD 
+# LIVERELOAD 
     ## Instalar: npm install ts-node-dev -d 
     ## Criar script : "dev": "ts-node-dev src/server.ts"
     ## Iniciar com: npm run dev
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# ROTAS
+   ## Para melhor organização de código criar um novo arquivo em src chamado routes.ts onde concentrará todas as rotas
